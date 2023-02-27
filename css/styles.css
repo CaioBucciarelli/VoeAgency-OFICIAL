@@ -26,6 +26,23 @@ h1 span {
     color: #8C52FF;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8C52FF; 
+    border-radius: 10px;
+  }
+
+
 /* HEADER */
 .header{
     height: 120px;
@@ -204,8 +221,54 @@ h1 span {
 }
 
 
+@media only screen and (max-width: 1600px) {
+    
+    /* SECTION SERVIÇOS */
+       
+    .cards {
+        width: 320px;
+        height: 235px;
+        padding: 24px;
+        background: #fff;
+        border-radius: 5px;
+        border: solid 1px #909090;
+    }
 
+    .icon-servicos {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .title-card-servicos {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .text-card-servicos {
+        margin-top: 12px;
+        font-size: 18px;
+        width: 270px;
+    }
+    
+    .img-decoradora-cima {
+        position: absolute;
+        margin-top: -668px;
+        margin-left: 1097px;
+    }
+    
+    .img-decoradora-baixo {
+        position: absolute;
+        margin-left: -200px;
+        margin-top: -350px;
+    }
 
+    /* SECTION EXPERTISE */
+    .section-expertise {
+        height: 100px;
+        background: black;
+        margin-top: -35px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
