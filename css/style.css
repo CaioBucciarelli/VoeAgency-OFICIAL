@@ -364,6 +364,45 @@ h1 span {
   z-index: -1;
 }
 
+/* ------------------------------------------ SECTION EXPERTISE ------------------------------------------ */
+
+.section-expertise {
+  background: #000;
+  padding: 120px 0;
+}
+
+.subsection-expertise {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-expertise {
+  font-size: 40px;
+}
+
+.subtitle-expertise {
+  font-size: 14px;
+  color: #BDBDBD;
+  text-transform: uppercase;  
+}
+
+.text-expertise {
+  font-size: 20px;
+  margin-top: 16px;
+  width: 90%;
+}
+
+.imgs-expertise {
+  width: 325px;
+}
+
+.section-ferramentas {
+
+}
+
 }
 
 @media only screen and (max-width: 768px) {
