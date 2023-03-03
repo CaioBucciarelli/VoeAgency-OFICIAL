@@ -234,6 +234,142 @@ h1 span {
   z-index: -1;
 }
 
+/* ------------------------------------------ SECTION EXPERTISE ------------------------------------------ */
+
+.section-expertise {
+  background: #000;
+  padding: 120px 0;
+}
+
+.subsection-expertise {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.title-expertise {
+  color: #fff;
+}
+
+.subtitle-expertise {
+  color: #bdbdbd;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.text-expertise {
+  color: #fff;
+  font-size: 28px;
+  margin: 28px 0 0 0;
+  width: 90%;
+}
+
+.imgs-expertise {
+  margin-top: -80px;
+}
+
+.section-ferramentas {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.title-ferramentas {
+  font-size: 28px;
+  margin-top: -32px;
+}
+
+.subtitle-ferramentas {
+  font-size: 36px;
+  margin-top: 32px;
+}
+
+.logo-ferramentas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+/* ------------------------------------------ SECTION COMO ATUAMOS ------------------------------------------ */
+
+.section-atuamos {
+  padding: 120px 0 60px;
+}
+
+.subsection-atuamos {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-atuamos {
+  text-align: center;
+}
+
+.cards-atuamos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.interno-card-atuamos {
+  padding: 24px;
+  background: #fff;
+  border-radius: 5px;
+  border: solid 1px #909090;
+}
+
+.text-passos {
+  font-size: 12px;
+  font-weight: 600;
+  color: #525252;
+}
+
+.title-cards-atuamos {
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+.subtitle-cards-atuamos {
+  font-size: 20px;
+  width: 300px;
+  margin-top: 12px;
+  color: #525252;
+}
+
+.dec {
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  background-color: #8C52FF;
+  z-index: 2;
+  margin-left: -29px;
+}
+
+.section-pergunta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 60px 0;
+}
+
+.title-pergunta {
+  font-size: 36px;
+}
+
+.btn-pergunta {
+  font-size: 18px;
+  color: #fff;
+  background-image: linear-gradient(rgba(13, 255, 0, 0), rgba(255, 0, 0, 0)), linear-gradient(101deg, #6F26FF, #8C52FF);
+  padding: 20px 12px;
+  margin-top: 32px;
+  border-radius: 5px;
+}
+
+.btn-pergunta:hover {
+  color: #24006c;
+}
+
+
 @media only screen and (max-width: 1200px) {
 
   /* ------------------------------------------ SECTION HEADER ------------------------------------------ */
@@ -366,41 +502,33 @@ h1 span {
 
 /* ------------------------------------------ SECTION EXPERTISE ------------------------------------------ */
 
-.section-expertise {
-  background: #000;
-  padding: 120px 0;
-}
-
-.subsection-expertise {
-  width: 80%;
-  margin: 0 auto;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-}
-
 .title-expertise {
   font-size: 40px;
-}
-
-.subtitle-expertise {
-  font-size: 14px;
-  color: #BDBDBD;
-  text-transform: uppercase;  
 }
 
 .text-expertise {
   font-size: 20px;
   margin-top: 16px;
-  width: 90%;
 }
 
 .imgs-expertise {
   width: 325px;
 }
 
-.section-ferramentas {
+.title-ferramentas {
+  font-size: 20px;
+  margin-top: 32px;
+}
 
+.subtitle-ferramentas {
+  font-size: 28px;
+  margin-top: 16px;
+}
+
+.logo-ferramentas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
 }
 
 }
@@ -442,6 +570,56 @@ h1 span {
     margin-top: 24px;
   }
 
+  /* ------------------------------------------ SECTION EXPERTISE ------------------------------------------ */
 
+.subsection-expertise {
+  display: block;
+}
+
+.title-expertise {
+  font-size: 40px;
+}
+
+.text-expertise {
+  font-size: 20px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.imgs-expertise {
+  width: 325px;
+  margin: 32px auto 0 auto;
+  display: flex;
+}
+
+.title-ferramentas {
+  font-size: 20px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.subtitle-ferramentas {
+  font-size: 24px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.logo-ferramentas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.logo-google-ads {
+  width: 80px;
+}
+
+.logo-meta {
+  width: 150px;
+}
+
+.logo-tiktok {
+  width: 100px;
+}
 
 }
