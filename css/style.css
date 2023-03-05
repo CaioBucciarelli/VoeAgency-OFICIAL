@@ -61,6 +61,8 @@ h1 span {
   border-radius: 10px;
 }
 
+ /* TODAS AS PÁGINAS */
+
 /* ------------------------------------------ SECTION HEADER ------------------------------------------ */
 
 .header{
@@ -129,6 +131,104 @@ h1 span {
   font-weight: 500;
   color: #482ff7;
 }
+
+/* ------------------------------------------ SECTION FOOTER ------------------------------------------ */
+
+.section-footer {
+  background: #000;
+  padding: 120px 0 120px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.subsection-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.lista-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-footer-contato {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-content-contato {
+  margin-top: 20px;
+}
+
+.item-lista-contato {
+  color: #B2B2B2;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.separador {
+  border-color: #383838;
+  margin-top: 16px;
+  width: 360px;
+  height: 2px;
+}
+
+.logo-redes-sociais {
+  width: 150px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer:hover {
+  border-bottom: solid 2px #6F26FF;
+}
+
+.lista-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-footer-info {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer-links-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.link-info {
+  font-size: 18px;
+  color: #B2B2B2;
+  margin-bottom: 12px;
+}
+
+.link-info:hover {
+  color: #696969;
+}
+
+.copyright {
+  width: 66%;
+  margin: 60px auto 0 auto;
+}
+
+.text-copyright {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* ---- */
 
 /* ------------------------------------------ SECTION BANNER ------------------------------------------ */
 
@@ -276,6 +376,7 @@ h1 span {
 
 .title-ferramentas {
   font-size: 28px;
+  font-weight: 500;
   margin-top: -32px;
 }
 
@@ -345,6 +446,8 @@ h1 span {
   margin-left: -29px;
 }
 
+/* ------------------------------------------ SECTION COMO ATUAMOS ------------------------------------------ */
+
 .section-pergunta {
   display: flex;
   flex-direction: column;
@@ -354,6 +457,7 @@ h1 span {
 
 .title-pergunta {
   font-size: 36px;
+  font-weight: 500;
 }
 
 .btn-pergunta {
@@ -369,8 +473,57 @@ h1 span {
   color: #24006c;
 }
 
+.img-decoradora-atuamos {
+  position: absolute;
+  top: 2100px;
+  right: 0px;
+  z-index: 1;
+}
 
-@media only screen and (max-width: 1200px) {
+/* ------------------------------------------ SECTION NEWSLETTER ------------------------------------------ */
+
+.section-newsletter {
+  width: 60%;
+  margin: 60px auto 60px auto;
+  padding: 40px 60px;
+  border-radius: 45px 5px 45px 5px;
+  background-image: linear-gradient(rgba(13, 255, 0, 0), rgba(255, 0, 0, 0)), linear-gradient(101deg, #6F26FF, #8C52FF);
+}
+
+.inputs {
+  width: 77%;
+  margin: 0 auto;
+}
+
+.title-newsletter {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.input-email {
+  width: 566px;
+  margin-top: 60px;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: solid 2px #ababab;
+}
+
+.btn-newsletter {
+  padding: 16px 32px;
+  font-size: 24px;
+  margin-left: 21px;
+  background: #fff;
+  border-radius: 5px;
+  border: solid 2px #ababab;
+  color: #3C138D;
+}
+
+@media only screen and (max-width: 1200px) {                                                /* MEDIA QUERIE */
+
+  /* TODAS AS PÁGINAS */
 
   /* ------------------------------------------ SECTION HEADER ------------------------------------------ */
   .nav-menu {
@@ -411,6 +564,8 @@ h1 span {
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+/* ---- */
 
 /* ------------------------------------------ SECTION BANNER ------------------------------------------ */
 
@@ -531,9 +686,109 @@ h1 span {
   margin-top: 60px;
 }
 
+/* ------------------------------------------ SECTION COMO ATUAMOS ------------------------------------------ */
+
+.cards-atuamos {
+  flex-direction: column;
+  align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
+.interno-card-atuamos {
+  padding: 20px;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.subtitle-cards-atuamos {
+  width: auto;
+}
+
+.dec {
+  margin-left: -25px;
+}
+
+.section-pergunta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 60px 0;
+}
+
+.img-decoradora-atuamos {
+  width: 10px;
+  top: 2150px;
+  right: 0px;
+  z-index: -1;
+}
+
+/* ------------------------------------------ SECTION NEWSLETTER ------------------------------------------ */
+
+.section-newsletter {
+  width: 80%;
+  margin: 0 auto 60px auto;
+  padding: 32px 0px;
+}
+
+.inputs {
+  width: 540px;
+}
+
+.title-newsletter {
+  font-size: 36px;
+}
+
+.input-email {
+  width: 60%;
+  margin-top: 32px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {                                                 /* MEDIA QUERIE */
+  /* TODAS AS PÁGINAS */
+
+  /* ------------------------------------------ SECTION FOOTER ------------------------------------------ */
+
+  .section-footer {
+    padding: 60px 0 60px 0;
+  }
+
+  .subsection-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lista-contato {
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .footer-content-contato {
+    margin-top: 0;
+  }
+
+  .item-lista-contato {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+
+
+  .lista-info {
+    margin-top: 32px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links-info {
+    margin-top: 12px;
+  }
+
+  .text-copyright {
+    text-align: center;
+  }
+
+/* ---- */
 
   /* ------------------------------------------ SECTION BANNER ------------------------------------------ */
 
@@ -620,6 +875,35 @@ h1 span {
 
 .logo-tiktok {
   width: 100px;
+}
+
+/* ------------------------------------------ SECTION COMO ATUAMOS ------------------------------------------ */
+
+.title-pergunta {
+  font-size: 28px;
+}
+
+/* ------------------------------------------ SECTION NEWSLETTER ------------------------------------------ */
+
+.inputs {
+  width: 442px;
+}
+
+.title-newsletter {
+  font-size: 24px;
+}
+
+.input-email {
+  width: 60%;
+  margin-top: 32px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.btn-newsletter {
+  padding: 14px 28px;
+  font-size: 18px;
+  margin-left: 21px;
 }
 
 }
